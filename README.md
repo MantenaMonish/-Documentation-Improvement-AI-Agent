@@ -134,3 +134,4 @@ This project is designed to analyze and improve technical documentation from [Mo
 
 - Google Gemini API for powering intelligent analysis
 - Bright Data for proxy support during scraping
+- Thank you to MoEngage for providing this opportunity to work on a real-world documentation quality challenge.
