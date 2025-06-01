@@ -7,40 +7,6 @@ This project is designed to analyze and improve technical documentation from [Mo
 
 ---
 
-##  Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/your-username/moengage-doc-ai.git
-cd moengage-doc-ai
-```
-
-### 2. Create and Activate Virtual Environment
-```bash
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-```
-
-### 3. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Environment Variables
-Create a `.env` file in the root directory with the following:
-```env
-BRIGHTDATA_USERNAME=your_username
-BRIGHTDATA_PASSWORD=your_password
-BRIGHTDATA_PORT=your_port
-BRIGHTDATA_IP=your_ip
-
-GEMINI_API_KEY=your_google_gemini_api_key
-```
-
-> ** Do NOT commit your API keys.**
-
----
-
 ##  Components Overview
 
 ###  Scraper
@@ -111,6 +77,8 @@ GEMINI_API_KEY=your_google_gemini_api_key
 - **Agent 1 Output:** `Outputs_Task1/segmentation.json`
 - **Agent 2 Output:** `Outputs_Task2/segmentation.md`
 
+---
+> ** Do NOT commit your API keys.**
 ---
 
 ##  Assumptions
