@@ -7,7 +7,7 @@ This project is designed to analyze and improve technical documentation from [Mo
 
 ---
 
-## 🛠 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repository
 ```bash
@@ -37,13 +37,13 @@ BRIGHTDATA_IP=your_ip
 GEMINI_API_KEY=your_google_gemini_api_key
 ```
 
-> **⚠️ Do NOT commit your `.env` or API keys.**
+> ** Do NOT commit your `.env` or API keys.**
 
 ---
 
-## 📚 Components Overview
+##  Components Overview
 
-### 🔍 Scraper
+###  Scraper
 **Objective:** Extract clean, Markdown-formatted content from MoEngage’s documentation pages.
 
 - **Tools Used:** `requests`, `BeautifulSoup`, `html2text`, `re`, Bright Data proxies
@@ -53,7 +53,7 @@ GEMINI_API_KEY=your_google_gemini_api_key
   - Cleans and converts content to Markdown
   - Saves to `scraped_docs/` with sanitized filenames
 
-### 🧹 Preprocessing
+###  Preprocessing
 **Objective:** Convert Markdown to clean, structured plain text for LLM analysis.
 
 - **Tools Used:** `frontmatter`, `markdown`, `BeautifulSoup`, `re`
@@ -65,7 +65,7 @@ GEMINI_API_KEY=your_google_gemini_api_key
 
 ---
 
-## 📈 Task 1: Documentation Quality Analyzer
+##  Task 1: Documentation Quality Analyzer
 
 **Goal:** Analyze documentation quality using Gemini API and readability metrics.
 
@@ -85,7 +85,7 @@ GEMINI_API_KEY=your_google_gemini_api_key
 
 ---
 
-## ✨ Task 2: Documentation Revision Agent
+##  Task 2: Documentation Revision Agent
 
 **Goal:** Automatically revise documentation based on analysis suggestions.
 
@@ -103,7 +103,7 @@ GEMINI_API_KEY=your_google_gemini_api_key
 
 ---
 
-## 📄 Example Output
+##  Example Output
 
 ### Example 1 – URL: https://help.moengage.com/docs/android-sdk-integration
 - **Agent 1 Output:** `analysis_reports/android-sdk-integration.json`
@@ -115,7 +115,7 @@ GEMINI_API_KEY=your_google_gemini_api_key
 
 ---
 
-## 📌 Assumptions
+##  Assumptions
 
 - MoEngage documentation layout remains consistent (targeting `.article__body.markdown`)
 - All content is in English and follows Markdown formatting
@@ -124,7 +124,7 @@ GEMINI_API_KEY=your_google_gemini_api_key
 
 ---
 
-## 🧠 Design Choices
+##  Design Choices
 
 - **Bright Data Proxies:** To avoid bot detection while scraping
 - **Markdown + HTML parsing:** Combines best of structure preservation and cleaning
@@ -134,7 +134,7 @@ GEMINI_API_KEY=your_google_gemini_api_key
 
 ---
 
-## ⚠️ Challenges and Workarounds
+##  Challenges and Workarounds
 
 | Challenge | Solution |
 |----------|----------|
@@ -146,16 +146,7 @@ GEMINI_API_KEY=your_google_gemini_api_key
 
 ---
 
-## 🚀 Future Enhancements
-
-- Add multi-language support for non-English docs
-- Integrate `textstat` for quantitative readability metrics
-- Build a Streamlit-based UI for documentation review
-- Track versioned diffs for before/after comparisons
-
----
-
-## 📂 Project Structure
+##  Project Structure
 
 ```bash
 .
@@ -173,8 +164,7 @@ GEMINI_API_KEY=your_google_gemini_api_key
 
 ---
 
-## 🤝 Acknowledgments
+##  Acknowledgments
 
-- MoEngage for open documentation
 - Google Gemini API for powering intelligent analysis
 - Bright Data for proxy support during scraping
