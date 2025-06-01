@@ -116,14 +116,13 @@ This project is designed to analyze and improve technical documentation from [Mo
 
 ```bash
 .
-├── scraped_docs/            # Raw Markdown from scraping
-├── analysis_reports/        # JSON output from quality analyzer
-├── revised_docs/            # Revised documentation from Agent 2
+├── Scraped_Docs/            # Raw Markdown from scraping
+├── Output_Task1/        # JSON output from quality analyzer
+├── Output_Task2/            # Revised documentation from Agent 2
 ├── scraper.py               # Scrapes and saves documentation
 ├── preprocess.py            # Prepares docs for LLM analysis
 ├── analyzer.py              # Agent 1: Quality analyzer
 ├── reviser.py               # Agent 2: Revision agent
-├── .env                     # Environment variables (not committed)
 ├── requirements.txt         # Dependencies
 └── README.md                # This file
 ```
