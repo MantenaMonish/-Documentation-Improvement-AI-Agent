@@ -37,7 +37,7 @@ BRIGHTDATA_IP=your_ip
 GEMINI_API_KEY=your_google_gemini_api_key
 ```
 
-> ** Do NOT commit your `.env` or API keys.**
+> ** Do NOT commit your API keys.**
 
 ---
 
@@ -81,8 +81,6 @@ GEMINI_API_KEY=your_google_gemini_api_key
 - **Completeness:** Examples, edge cases, depth
 - **Style Compliance:** Microsoft Voice & Tone
 
-> Output saved in `analysis_reports/<filename>.json`
-
 ---
 
 ##  Task 2: Documentation Revision Agent
@@ -106,12 +104,12 @@ GEMINI_API_KEY=your_google_gemini_api_key
 ##  Example Output
 
 ### Example 1 – URL: https://help.moengage.com/docs/android-sdk-integration
-- **Agent 1 Output:** `analysis_reports/android-sdk-integration.json`
-- **Agent 2 Output:** `revised_docs/android-sdk-integration.md`
+- **Agent 1 Output:** `Outputs_Task1/android-sdk-integration.json`
+- **Agent 2 Output:** `Outputs_Task2/android-sdk-integration.md`
 
 ### Example 2 – URL: https://help.moengage.com/docs/segmentation
-- **Agent 1 Output:** `analysis_reports/segmentation.json`
-- **Agent 2 Output:** `revised_docs/segmentation.md`
+- **Agent 1 Output:** `Outputs_Task1/segmentation.json`
+- **Agent 2 Output:** `Outputs_Task2/segmentation.md`
 
 ---
 
