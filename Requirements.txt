@@ -1,0 +1,18 @@
+# Scraping
+requests==2.31.0
+beautifulsoup4==4.12.3
+html2text==2020.1.16
+
+# Preprocessing
+markdown==3.6
+python-frontmatter==1.0.0
+
+# Core Libraries
+regex==2023.12.25
+lxml==5.2.1
+
+# AI Integration
+google-generativeai==0.5.4
+
+# Optional: Readability metrics (future extension)
+textstat==0.7.3
