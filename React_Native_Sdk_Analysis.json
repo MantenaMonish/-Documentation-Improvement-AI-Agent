@@ -1,0 +1,37 @@
+{
+  "url": "https://developers.moengage.com/hc/en-us/articles/360061108111-Web-SDK-Overview#h_01H9G1YMFWVN61PKBDN0MGAJWG",
+  "results": {
+    "readability": {
+      "assessment": "The document uses jargon (e.g., \"Web SDK,\" \"Web Push\") that may confuse non-technical marketers. Sentence structure is occasionally complex. ",
+      "suggestions": [
+        "Replace jargon with simpler terms or provide explanations.  Use shorter, simpler sentences.",
+        "Add a glossary of terms."
+      ]
+    },
+    "structure": {
+      "assessment": "The structure is inconsistent. Headings are not consistently formatted (e.g., using '#' and '##'). The logical flow is disjointed; integration steps are presented abruptly without sufficient context.",
+      "suggestions": [
+        "Use a consistent heading style (e.g., all H2s).",
+        "Improve the logical flow by adding transitions between sections.",
+        "Provide a more detailed introduction before diving into integration steps."
+      ]
+    },
+    "completeness": {
+      "assessment": "Implementation details are insufficient.  The examples provided are minimal and lack practical context. The 'refer here' link is not functional without a URL.",
+      "suggestions": [
+        "Provide more detailed implementation steps with code examples.",
+        "Include more comprehensive and realistic examples.",
+        "Replace \"refer here\" with a working URL."
+      ]
+    },
+    "style": {
+      "assessment": "The document does not fully comply with Microsoft Style Guide standards. Voice is not consistent, clarity is lacking in several areas, and action-oriented language is inconsistently used.",
+      "suggestions": [
+        "Review and revise the document according to the Microsoft Style Guide.",
+        "Maintain a consistent and professional tone throughout.",
+        "Use clear and concise language.",
+        "Employ more action-oriented language (e.g., use imperative verbs)."
+      ]
+    }
+  }
+}

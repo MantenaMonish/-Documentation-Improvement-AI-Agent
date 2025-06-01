@@ -1,0 +1,32 @@
+{
+  "url": "https://developers.moengage.com/hc/en-us/articles/22105190881044-Getting-Started-with-React-Native-SDK#h_01HEJAHP5W49AASNSHF5614AHP",
+  "results": {
+    "readability": {
+      "assessment": "The documentation uses some technical jargon that may confuse non-technical marketers. Sentence structure is sometimes complex, with long sentences and multiple clauses.  Many sections rely on directing the reader to other articles, rather than providing complete information within a single section.",
+      "suggestions": [
+        "Simplify technical terms or provide clear definitions. Break down long sentences into shorter, more concise ones.  Incorporate more explanations and examples within each section, reducing reliance on external links.",
+        "Use a more conversational and less formal tone. Focus on the benefits and value proposition of each feature for marketers."
+      ]
+    },
+    "structure": {
+      "assessment": "The documentation has a hierarchical structure with headings and subheadings. However, the logical flow could be improved.  Many sections are broken into multiple articles, making it difficult to follow the complete process in one place.",
+      "suggestions": [
+        "Improve the logical flow by grouping related information together.  Consider creating a more linear step-by-step guide for key features.  Consolidate information currently spread across multiple articles where possible.",
+        "Use more descriptive headings and subheadings to improve navigation and understanding."
+      ]
+    },
+    "completeness": {
+      "assessment": "The documentation lacks crucial implementation details in several sections. It frequently directs the user to external articles without providing sufficient context or examples within the main document. The quality of examples is inconsistent; some sections have no examples at all.",
+      "suggestions": [
+        "Provide more comprehensive implementation details within each section. Include more detailed code examples and screenshots to illustrate the steps.  Ensure that all sections have at least one example.",
+        "Reduce reliance on external links by incorporating the necessary information directly into the main document."
+      ]
+    },
+    "style": {
+      "assessment": "The documentation does not fully comply with Microsoft Style Guide standards. The voice is somewhat technical and not action-oriented. Clarity could be improved by simplifying language and sentence structure.",
+      "suggestions": [
+        "Adopt a more action-oriented tone using imperative verbs.  Ensure clarity by using precise language and avoiding jargon.  Review and revise the document to align with Microsoft Style Guide recommendations for voice, tone, and style."
+      ]
+    }
+  }
+}
